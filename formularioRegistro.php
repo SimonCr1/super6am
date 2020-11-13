@@ -32,6 +32,14 @@
                         <textarea class="form-control" rows="4" name="descripcion"></textarea>
                     </div>
                 </div>
+
+                <div class="row mt-3">
+                    
+                    <div class="col">
+                        <label class="font-weight-bold">Foto:</label>
+                        <input type="text" class="form-control" placeholder="URL fotografia" name="foto">
+                    </div>
+                </div>
                 
                 <div class="row mt-3">
                     <div class="col align-self-end">

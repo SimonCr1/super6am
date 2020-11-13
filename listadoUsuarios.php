@@ -21,7 +21,7 @@
         //3.Utilizar el metodo consultarDatos
         $usuarios=$transaccion->consultarDatos($consultaSQL);
 
-        print_r($usuarios);
+
     
     ?>
     
@@ -33,7 +33,7 @@
 
             <div class="col mb-4">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="<?php echo($usuario["foto"]) ?>" class="card-img-top" alt="Foto">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo($usuario["nombre"])?></h5>
                         <p class="card-text"><?php echo($usuario["descripcion"])?></p>
