@@ -21,6 +21,9 @@ $consultaSQL="DELETE FROM usuarios WHERE idUsuario='$id' ";
 
 $transaccion->eliminarDatos($consultaSQL);
 
+ //6. Redireccion a la vista que necesite
+ header("location:listadoUsuarios.php")
+
 
 
 
